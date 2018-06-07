@@ -3,12 +3,16 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const argv = require('minimist')(process.argv.slice(2));
 const typed_prompts_1 = require("typed-prompts");
 function requestArguments(params) {
-    console.log(argv);
     if (argv['h']) {
-        console.log('Startup Params v.1.0.0');
+        console.log('***********************************************************');
+        console.log('***** Request Arguments HELP ******************************');
+        console.log('***********************************************************');
+        console.log();
         params.forEach((element) => {
             console.log('-' + element.short + ' :' + element.name + ''.padEnd(40 - (element.short.length + element.name.length)) + element.description);
         });
+        console.log();
+        console.log('***********************************************************');
         process.exit(0);
     }
     return new Promise((resolve, reject) => {

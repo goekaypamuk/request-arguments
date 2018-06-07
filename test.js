@@ -1,5 +1,4 @@
 var f = require('./dist/index');
-console.log(f)
 f.requestArguments([,
     {
         name: 'port',

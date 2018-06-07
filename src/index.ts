@@ -4,7 +4,7 @@ import {prompt, list, editor, input} from 'typed-prompts';
 export function requestArguments(params: Array<Param>): Promise<any> {
     console.log(argv)
     if (argv['h']) {
-        console.log('Startup Params v.1.0.0');
+        console.log('Startup Paragit ms v.1.0.0');
         params.forEach((element: any) => {
             console.log('-' + element.short + ' :' + element.name + ''.padEnd(40 - (element.short.length + element.name.length)) + element.description);
         })

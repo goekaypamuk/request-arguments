@@ -8,12 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goekaypamuk/request-arguments"
+    "url": "git+https://github.com/goekaypamuk/request-arguments.git"
   },
-  "author": {
-    "name": "Gökay Pamuk",
-    "email": "goekaypamuk@gmail.com"
-  },
+  "author": "Gökay Pamuk <goekaypamuk@gmail.com>",
   "keywords": [
     "Params",
     "Parameter",
@@ -28,5 +25,9 @@
     "@types/node": "^10.3.1",
     "minimist": "^1.2.0",
     "typed-prompts": "^1.5.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/goekaypamuk/request-arguments/issues"
+  },
+  "homepage": "https://github.com/goekaypamuk/request-arguments#readme"
 }

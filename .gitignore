@@ -28,21 +28,4 @@ Desktop.ini
 # Ngc generated files
 **/*.ngfactory.ts
 
-# Build files
-dist/*
 
-# Playground tmp files
-.playground
-.playground/*
-
-# Internal Docs
-.compodocs
-.compodocs/*
-.doc
-.doc/*
-
-.cert
-.cert/
-.cert/*
-cert/
-cert/*
